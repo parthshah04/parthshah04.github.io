@@ -1,0 +1,93 @@
+
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		body
+		{
+			background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.5)), url(background.jpeg) ;
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+		}
+		table,th,td{
+					border:3px; border_collapse:collapse; color:courier; font-size:25px
+		}
+		th{
+			padding:8
+		}
+		input,textarea,select{
+							  background-color:white; border-color:white
+		}
+		.btn
+		{
+			
+			padding: 9px;
+		}
+	</style>
+</head>
+<body>
+<table style="background-color:transparent; " align="center"></a>
+	<form action="images.jpg">
+	<caption style="color:Black;border: dotted;">REGISTRATION FORM</caption>
+		<tr>
+			<th>Name:</th>
+			<td>
+			<input type="text" name="name" required><br>
+			</td>
+		</tr>
+		<tr>
+			<th>UserId:</th>
+			<td><input type="text" name="uid" required="hell"><br></td>
+		</tr>
+		<tr>
+			<th>Email:</th>
+			<td><input type="text" name="email"><br></td>
+		</tr>
+		<tr>
+			<th>Date of Birth:</th>
+			<td><input type="date" name="bdate"><br></td>
+		</tr>
+		<tr>
+			<th>Address:</th>
+			<td><textarea name="address" rows="10" cols="15">
+			</textarea><br></td>
+		</tr>
+		<tr>
+			<th>City:</th>
+			<td><select name="city">
+			<option>Surat</option>
+			<option>Baroda</option>
+			<option>Anand</option>
+			</select><br></td>
+		</tr>
+		<tr>
+			<th>Rooms:</th>
+			<td><select name="rooms">
+			<option>2withac1</option>
+			<option>2withnonac</option>
+			<option>3withac</option>
+			<option>3withnonac</option>
+			</select><br></td>
+		</tr>
+		<tr>
+			<th>Gender:</th>
+			<td><input type="radio" >Male
+			<input type="radio">Female<br></td>
+		</tr>
+		<tr>
+			<th>College:</th>
+			<td><select name="college">
+			<option>BVM</option>
+			<option>ADIIT</option>
+			<option>GCET</option>
+			<option>CG patel</option>
+			</select><br></td>
+		</tr>
+		</table>
+</form>
+<a href="index.html"><input type="submit" style="font-size:25px; color:black" value="SUBMIT"></button></a>
+			<input type="reset" name="reset" style="font-size:25px; color:black" value="Reset">
+			<footer style="text-align: center;color:black;background-color: grey;padding: 20px">&copy; Copyright 2019 WHITE HOUSE (P SHAH Ltd.)</footer>
+</body>
+</html>
